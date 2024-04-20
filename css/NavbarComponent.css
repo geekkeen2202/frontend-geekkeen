@@ -1,0 +1,38 @@
+#nav-title{
+    font-size: larger;
+    font-family: "Anonymous Pro";
+    
+}
+#navbar{
+    font-family: "Anonymous Pro";
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(227, 227, 239);
+    background-color: rgba(25, 25, 31, 0.373);
+    /* color: whitesmoke; */
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+
+
+#nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.getStarted{
+    background-color: hsl(229, 93%, 6%);
+    border-radius: 22px;
+    border: 1px solid rgb(200, 199, 199);
+    padding: .5rem;
+}

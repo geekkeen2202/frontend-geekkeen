@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url("../fonts/Anonymous\ Pro.ttf");
+}
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb:  227, 227, 239;
+  --background-end-rgb:  227, 227, 239;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 227, 227, 239;
+    --background-start-rgb: 09,09,16;
+    --background-end-rgb:  09,09,16;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
