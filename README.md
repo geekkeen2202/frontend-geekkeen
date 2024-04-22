@@ -1,5 +1,5 @@
 ## Requirements - 
-NodeJS - 20.12.0(LTS) - https://nodejs.org/en/download
+NodeJS - 20.12.0(LTS) - https://nodejs.org/en/download/package-manager
 
 GIT 
 
