@@ -10,8 +10,6 @@ export default function WebDevelopmentLayout({
         <div>Courses &nbsp;</div>
         <div>{">"}</div>
         <div>&nbsp;Development&nbsp;</div>
-        <div>{">"}</div>
-        <div>&nbsp;Web Development</div>
        </div>
        <header className='text-xl'>Development</header>
         {children}

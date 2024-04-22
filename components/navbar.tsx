@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Navbar(){
     return (
         <nav id='navbar'>
-            <div id="nav-title">GEE<span className='text-red-500'>{"I<>I"}</span>EEN</div>
+            <Link href={"/"} id="nav-title">GEE<span className='text-red-500'>{"I<>I"}</span>EEN</Link>
             <div id="nav-links">
                 <Link href={"/"}>Courses</Link>
                 <Link href={"/"}>Practise</Link>

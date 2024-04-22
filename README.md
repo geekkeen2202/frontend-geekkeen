@@ -11,11 +11,14 @@ GIT
 
    <code>git checkout master</code>
 
-3. Use the ```master branch```  for the development.
+3. Use the ```master branch```  for the development. (<i>I will delete the main branch later</i>)
+
+4. Run ```npm i``` to install all packages.
 
 ## Getting Started
 
  In Terminal run ```npm run dev```. The Project will start on http://localhost:3000
+ 
 
 
 
